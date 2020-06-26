@@ -1,0 +1,24 @@
+{% extends 'courses/base.html' %}
+
+{% load static %}
+
+{% block content %}
+    {{ request }}
+
+<div>
+
+  <!-- can't do this -->
+  {% comment %} <script src="{% static 'js/stripeV3.js' %}"></script> {% endcomment %}
+
+  <form action="." method="post" id="playground-form">
+    {% csrf_token %}
+
+    <button type="submit">Submit Payment</button>
+  </form>
+
+  <script src="{% static "js/playground.js" %}"></script>
+  
+</div>
+
+
+{% endblock%}
