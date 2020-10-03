@@ -10,7 +10,7 @@ course page
 ![](img/course.png)
 
 membership page
-![](img/membership/png)
+![](img/membership.png)
 
 payment page
 ![](img/paymen.png)
