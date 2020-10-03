@@ -6,3 +6,11 @@ A video sharing platform that offers a subscription based model, where consumers
 • Use Stripe API to integrate payment processing into the website.
 
 ## Demo
+course page
+![](img/course.png)
+
+membership page
+![](img/membership/png)
+
+payment page
+![](img/paymen.png)
